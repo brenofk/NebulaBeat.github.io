@@ -694,15 +694,23 @@ strong {
   border-right-color: transparent;
 }
 
-.schedule-table .pop-background-image {
+.schedule-table .eletronica-ilu-background-image {
   background-image: url('../images/artists/illu_cronograma.jpg');
 }
 
-.schedule-table .rock-background-image {
+.schedule-table .eletronica-alok-background-image {
+  background-image: url('../images/artists/Alok-p.jpg');
+}
+
+.schedule-table .eletronica-david-background-image {
+  background-image: url('../images/artists/david.jpg');
+}
+
+.schedule-table .eletronica-mand-background-image {
   background-image: url('../images/artists/Mandagora_Cronograma.jpg');
 }
 
-.schedule-table .country-background-image {
+.schedule-table .eletronica-vegas-background-image {
   background-image: url('../images/artists/Vegas_Cronograma.jpg');
 }
 
