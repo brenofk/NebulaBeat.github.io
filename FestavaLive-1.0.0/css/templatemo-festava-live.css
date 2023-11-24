@@ -13,7 +13,7 @@ https://templatemo.com/tm-583-festava-live
 :root {
   --white-color:                  #ffffff;
   --primary-color:                #F8CB2E;
-  --secondary-color:              #EE5007;
+  --secondary-color:              rgb(72, 24, 139); /*ALTERA A COR DO QUADRO DO CRONOGRAMA  */
   --section-bg-color:             #f0f8ff;
   --custom-btn-bg-color:          #EE5007;
   --custom-btn-bg-hover-color:    #c01f27;
@@ -645,14 +645,14 @@ strong {
 -----------------------------------------*/
 .schedule-section {
   background-image: url('../images/trocar.jpg');
-  background-color: #242424;
+  background-color: #242424; 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-/* Tabele responsive: Mexe com a cor de tras do Cronograma.*/
+/* Tabele-responsive: Mexe com a SOMBRA de tras do Cronograma.*/
 .table-responsive {
-	filter: drop-shadow(2px 2px 4px #ec7cd4);
+	filter: drop-shadow(2px 2px 4px #7cddec);
 }
 
 .schedule-table {
@@ -668,11 +668,11 @@ strong {
 .schedule-table thead th {
   background-color: var(--secondary-color);
 }
-/*MEXE COM AS CORES ENTRE OS QUADRADOS DO CRONOGRAMA*/
+/*MEXE COM AS CORES ENTRE OS QUADRADOS DO CRONOGRAMA VERTICAL*/
 .schedule-table th,
 .schedule-table tr,
 .schedule-table td {
-  border-bottom-color: #1d1d1d;
+  border-bottom-color: #000000;
   padding: 30px;
 }
 
@@ -682,7 +682,7 @@ strong {
 }
 /*MEXE COM AS CORES DA DATA(QUARTA FEIRA)..*/
 .schedule-table thead th {
-  border-right: 1px solid #c7460a;
+  border-right: 1px solid rgb(254, 203, 85); /*Mexe com as cores entre os quadros do cronograma horizontal*/ 
   border-bottom-color: transparent;
 }
 
