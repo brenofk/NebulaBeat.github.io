@@ -14,11 +14,11 @@ https://templatemo.com/tm-583-festava-live
   --white-color:                  #ffffff;
   --primary-color:                #F8CB2E;
   --secondary-color:              rgb(72, 24, 139); /*ALTERA A COR DO QUADRO DO CRONOGRAMA  */
-  --section-bg-color:             #f0f8ff;
+  --section-bg-color:             #f1f0ff; /*Altera cor de fundo de MEUS PLANOS*/
   --custom-btn-bg-color:          #EE5007;
   --custom-btn-bg-hover-color:    #c01f27;
   --dark-color:                   #000000;
-  --p-color:                      #717275;
+  --p-color:                      #060606; /*Altera a cor dos nomes dos artistas*/
   --border-color:                 #7fffd4;
   --link-hover-color:             #B22727;
 
@@ -603,9 +603,10 @@ strong {
   opacity: 1;
 }
 
+  /*Altera a cor do quadro dos artistas. se deixar o mouse em cima*/ 
 .artists-hover {
   background-color: var(--primary-color);
-  background-color: rgba(248, 203, 46, 0.75);
+  background-color: rgba(118, 229, 239, 0.674); /*Primeira barra na vertical indica transparencia*/
   border-radius: var(--border-radius-medium);
   backdrop-filter: blur(5px) saturate(180%);
   -webkit-backdrop-filter: blur(5px) saturate(180%);
