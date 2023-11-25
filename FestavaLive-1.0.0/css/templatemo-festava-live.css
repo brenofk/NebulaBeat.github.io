@@ -15,8 +15,8 @@ https://templatemo.com/tm-583-festava-live
   --primary-color:                rgb(12, 0, 248); /*Altera a fonte do comprar ingresso em amarelo*/
   --secondary-color:              rgb(72, 24, 139); /*ALTERA A COR DO QUADRO DO CRONOGRAMA  */
   --section-bg-color:             #f1f0ff; /*Altera cor de fundo de MEUS PLANOS*/
-  --custom-btn-bg-color:          #EE5007;
-  --custom-btn-bg-hover-color:    #8f03fb;/*Muda a cor do COMPRAR INGRESSO SUPERIOR DIREITO e VAMOS COMEÇAR. DEIAXR MOUSE EM CIMA*/
+  --custom-btn-bg-color:          #f2eb6dbf; /*Altera a cor do COMPRAR INGRESSOS SUPERIOR DIREITO e Vamos comecar*/
+  --custom-btn-bg-hover-color:    #fb1c03;/*Muda a cor do COMPRAR INGRESSO SUPERIOR DIREITO e VAMOS COMEÇAR. DEIAXR MOUSE EM CIMA*/
   --dark-color:                   #000000;
   --p-color:                      #000000; /*Altera a cor dos nomes dos artistas+*/
   --border-color:                 #7fffd4;
@@ -43,7 +43,8 @@ https://templatemo.com/tm-583-festava-live
   --font-weight-bold:             700;
   --aroba-color:                 rgb(255, 255, 255); /*Adicionei para mudar o @ dos artistas*/
   --emCima-color:                rgb(195, 2, 2); /*Altera a cor de deixar o mouse em cima*/
-  --redesocial-color:       rgb(3, 3, 3); /*Altera a cor das redes sociais*/
+  --redesocial-color:            rgb(3, 3, 3); /*Altera a cor das redes sociais*/
+  --botoes-color:            rgb(249, 9, 9);
 
 }
 
@@ -118,7 +119,7 @@ button {
 
 a {
   display: inline-block;
-  color: var(--primary-color);
+  color: var(--emCima-color); /*Altera a cor do Distribuido por: */
   text-decoration: none;
 }
 
@@ -274,7 +275,7 @@ strong {
 }
 
 .nav-tabs h5 {
-  color: var(--p-color); 
+  color: var(--p-color);  /*Altera a cor do Formulario de Contrato*/
   margin-bottom: 0;
 }
 
@@ -394,7 +395,7 @@ strong {
 
 .navbar-nav .nav-link {
   display: inline-block;
-  color: var(--white-color);
+  color: var(--white-color); /*Altera a cor do botoes do inicio*/
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-normal);
   position: relative;
@@ -404,7 +405,7 @@ strong {
 
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link:hover {
-  color: var(--secondary-color);
+  color: var(--botoes-color); /*Altera as cores dos botoes iniciais*/
 }
 
 .navbar-toggler {
@@ -817,7 +818,7 @@ strong {
   background: var(--custom-btn-bg-color);
   border: none;
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color: var(--black-color); /*Altera a cor da escrita em Comprar ingresso ticket*/
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-medium);
   transition: all 0.3s;
@@ -856,7 +857,7 @@ strong {
 }
 
 .site-footer-title {
-  color: var(--primary-color); 
+  color: var(--white-color); 
 }
 
 .site-footer-link,
